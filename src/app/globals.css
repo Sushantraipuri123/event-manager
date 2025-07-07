@@ -19,8 +19,10 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* globals.css or your Tailwind CSS file */
+.fc-daygrid-event {
+  @apply text-sm text-white bg-blue-600 rounded px-2 py-1;
+}
+.fc-toolbar-title {
+  @apply text-xl font-semibold text-gray-800;
 }
